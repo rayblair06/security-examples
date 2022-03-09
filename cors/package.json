@@ -1,0 +1,26 @@
+{
+  "name": "cors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon --exec babel-node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.17.0",
+    "@babel/eslint-parser": "^7.5.4",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.15.0",
+    "@babel/register": "^7.16.0"
+  }
+}
